@@ -1,0 +1,32 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    width:500px;
+    margin:20px auto;
+    font-size: 20px;
+}
+
+.label input, .label select, .label textarea{
+    display:block;
+    width:100%;
+    font-size:20px;
+    padding:10px;
+}
+
+.check, .label{
+    padding:20px;
+}
+
+.btn{
+    text-align: center;
+}
+
+.btn button{
+    font-size: 20px;
+}
+
+#message{
+    color: red;
+}
